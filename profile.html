@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <title>PROFILE</title>
+</head>
+<body>
+    <nav class="navbar" id="nav">
+        <a href="index.html" class="navbar_logo">
+            <img src="./images/logo.png" alt="">
+        </a>
+        <h1 class="nav-title">
+            MUSIC LOVERA
+        </h1>
+        <div class="navbar_toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="navbar_menu">
+            <a href="profile.html" class="navbar_link">PROFILE</a>
+            <a href="messages.html" class="navbar_link">MESSAGES</a>
+            <a href="notifications.html" class="navbar_link">NOTIFICATIONS</a>
+            <a href="post.html" class="navbar_link cta">POST</a>
+        </div>
+    </nav>
+    <section class="main">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="profile.html">
+                        <img src="./images/profile.png" alt="" class="side-icon">
+                        <p>PROFILE</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="messages.html">
+                        <img src="./images/message.png" alt="" class="side-icon">
+                        <p>MESSAGES</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="notifications.html">
+                        <img src="./images/bell.png" alt="" class="side-icon">
+                        <p>NOTIFICATIONS</p>
+                    </a>
+                </li>
+                <a href="post.html" class="post">
+                    POST
+                </a>
+            </ul>
+        </div>
+        <div class="main-content">
+            <form action="post">
+                <div class="profile-img">
+                    <img src="./images/user1.jpg" alt="" class="profile-img">
+                </div>
+                    <div class="form-title">
+                        <label class="form_label" for="from_name">USERNAME</label>
+                        <input type="text" class="profile-input" placeholder="JANE DOE">
+                    </div>
+                    <div class="forum-details">
+                        <label class="form_label" for="email_address">BIO</label>
+                        <input type="text" class="profile-input" placeholder="ABOUT ME.....">
+                    </div>
+                    <input id="button" type="submit" class="buttn" name="submit" value="SAVE"/>
+            </form>
+        </div>
+    </section>
+    <div class="footer">
+        MUSIC LOVERA BY WHIP MUSIC AFRICA
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
